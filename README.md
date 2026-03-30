@@ -13,6 +13,10 @@ This project is a Student Portal interface developed using HTML. It provides a s
 ## 🛠 Technologies Used
 - HTML
 
+ ## 📷 Sample Output
+  <img width="1860" height="882" alt="image" src="https://github.com/user-attachments/assets/c0c39222-7e51-4277-9423-46992dee7591" />
+
+
 ## ⚠️ Note
 This project is a frontend-only implementation and does not include backend functionality or database integration.
 
