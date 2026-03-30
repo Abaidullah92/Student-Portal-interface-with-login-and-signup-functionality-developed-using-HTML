@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NoCode University Student Portal</title>
+    <style>
+      /* ========== GENERAL STYLING ========== */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+      }
+
+      h1,
+      h2,
+      h4 {
+        margin: 10px 0;
+      }
+
+      p {
+        margin: 8px 0;
+      }
+
+      /* ========== NAVBAR ========== */
+      .navbar {
+        /* use flexbox for clean horizontal layout with optional wrapping */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        text-align: center; /* fallback for old browsers */
+        padding: 10px 0;
+        background-color: #f4f4f4;
+      }
+
+      /* ensure heading takes full width on its own line */
+      .navbar h2 {
+        margin: 0;
+        flex-basis: 100%;
+      }
+
+      .navbar a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+      }
+
+      /* ========== IMAGES ========== */
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 10px auto;
+      }
+
+      /* ========== SECTIONS ========== */
+      .section {
+        padding: 15px 10px;
+        text-align: center;
+      }
+
+      .section ul {
+        list-style-position: inside;
+        padding: 0;
+        display: inline-block;
+        text-align: left;
+      }
+
+      /* ========== FOOTER ========== */
+      footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #f4f4f4;
+        font-size: 0.9em;
+      }
+
+      /* ========== RESPONSIVE FIXES ========== */
+      @media (max-width: 600px) {
+        /* keep links on a single line but allow wrapping if needed */
+        .navbar {
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+
+        .navbar a {
+          display: inline-block;
+          margin: 5px 8px;
+        }
+
+        .section ul {
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- ================= NAVBAR ================= -->
+    <div class="navbar">
+      <h2>NoCode University Student Portal</h2>
+      <a href="#home">Home</a>
+      <a href="login.html">Login</a>
+      <a href="sign.html">Signup</a>
+      <a href="#courses">Courses</a>
+      <a href="#announcements">Announcements</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#support">Support</a>
+    </div>
+    <hr />
+
+    <!-- ================= WELCOME SECTION ================= -->
+    <div class="section" id="courses">
+      <h1>Welcome to NoCode University</h1>
+
+      <img
+        src="https://pbs.twimg.com/profile_images/904691154368778241/QJyreG0h_400x400.jpg"
+        alt="Portal Picture"
+      />
+
+      <p>
+        <strong>NoCode University Student Portal</strong> is designed to help
+        students
+        <em
+          >learn new skills, improve knowledge, and build a successful
+          future.</em
+        >
+        Through this portal students can explore courses, access learning
+        materials, stay updated with announcements, and connect with the
+        university community.
+      </p>
+    </div>
+
+    <hr />
+
+    <!-- ================= AVAILABLE COURSES ================= -->
+    <div class="section">
+      <h2>Available Courses</h2>
+      <ul>
+        <li>Web Development</li>
+        <li>Programming Fundamentals</li>
+        <li>Database Management Systems</li>
+        <li>Graphic Design</li>
+        <li>Digital Marketing</li>
+      </ul>
+    </div>
+
+    <hr />
+
+    <!-- ================= LATEST ANNOUNCEMENTS ================= -->
+    <div class="section" id="announcements">
+      <h2>Latest Announcements</h2>
+
+      <p>
+        <strong>Midterm Exams:</strong> Midterm exams will begin from 15th
+        April.
+      </p>
+      <p>
+        <strong>Assignment Deadline:</strong> Submit Web Development assignment
+        before 10th April.
+      </p>
+      <p>
+        <strong>Workshop:</strong> A free Coding Workshop will be held next
+        Monday.
+      </p>
+    </div>
+
+    <hr />
+
+    <!-- ================= STUDENT REVIEWS ================= -->
+    <div class="section" id="reviews">
+      <h2>Student Reviews</h2>
+
+      <p>
+        <strong>Ali Khan:</strong><br />"This portal helped me start learning
+        web development easily."
+      </p>
+      <p>
+        <strong>Fatima Noor:</strong><br />"The courses are very helpful and
+        easy to understand."
+      </p>
+      <p>
+        <strong>Ahmed Raza:</strong><br />"A great platform for students who
+        want to build tech skills."
+      </p>
+    </div>
+
+    <hr />
+
+    <!-- ================= STUDENT SUPPORT ================= -->
+    <div class="section" id="support">
+      <h2>Student Support</h2>
+
+      <p>If you need help, our support team is always ready to assist you.</p>
+      <p><strong>Email:</strong> support@nocodeuniversity.com</p>
+      <p><strong>Phone:</strong> +92 300 1234567</p>
+      <p>
+        <a href="#">Help Center</a> | <a href="#">FAQs</a> |
+        <a href="#">Contact Support</a>
+      </p>
+    </div>
+
+    <hr />
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+      <p>@ 2026 NoCode University Student Portal</p>
+      <p>All Rights Reserved</p>
+    </footer>
+  </body>
+</html>

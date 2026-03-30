@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Login</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+        background-color: #f9f9f9;
+      }
+
+      .login-container {
+        max-width: 400px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        text-align: center;
+      }
+
+      h2 {
+        margin-bottom: 20px;
+      }
+
+      form p {
+        margin-bottom: 15px;
+        text-align: left;
+      }
+
+      label {
+        font-weight: bold;
+      }
+
+      input[type="text"],
+      input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+      }
+
+      input[type="submit"],
+      input[type="reset"] {
+        padding: 10px 20px;
+        margin: 5px;
+        border: none;
+        border-radius: 5px;
+        background-color: #007bff;
+        color: white;
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+      input[type="reset"] {
+        background-color: #6c757d;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #0056b3;
+      }
+
+      input[type="reset"]:hover {
+        background-color: #5a6268;
+      }
+
+      .signup-link {
+        margin-top: 15px;
+        display: block;
+        font-size: 0.9em;
+      }
+
+      a {
+        color: #007bff;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      @media (max-width: 500px) {
+        .login-container {
+          margin: 20px;
+          padding: 15px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Student Login Section -->
+    <div class="login-container">
+      <h2>Student Login</h2>
+
+      <form>
+        <p>
+          <label>Username:</label><br />
+          <input type="text" placeholder="Enter your username" />
+        </p>
+
+        <p>
+          <label>Password:</label><br />
+          <input type="password" placeholder="Enter your password" />
+        </p>
+
+        <p>
+          <input type="submit" value="Login" />
+          <input type="reset" value="Clear" />
+        </p>
+      </form>
+
+      <span class="signup-link">
+        If you don't have an account? <a href="sign.html">Signup here</a>
+      </span>
+    </div>
+  </body>
+</html>
